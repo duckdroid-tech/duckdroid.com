@@ -13,34 +13,19 @@
 </head>
 <body>
 
-<div style="position:relative;">
- *   <button
- *       id="anchor"
- *       @click=${() => this.menuRef.value.show()}>
- *     Click to open menu
- *   </button>
- *   <!--
- *     `has-overflow` is required when using a submenu which overflows the
- *     menu's contents.
- *
- *     Additionally, `anchor` ingests an idref which do not pass through shadow
- *     roots. You can also set `.anchorElement` to an element reference if
- *     necessary.
- *   -->
- *   <md-menu anchor="anchor" has-overflow ${ref(menuRef)}>
- *     <md-menu-item headline="This is a headline"></md-menu-item>
- *     <md-sub-menu>
- *       <md-menu-item
- *           slot="item"
- *           headline="this is a submenu item">
- *       </md-menu-item>
- *       <md-menu slot="menu">
- *         <md-menu-item headline="This is an item inside a submenu">
- *         </md-menu-item>
- *       </md-menu>
- *     </md-sub-menu>
- *   </md-menu>
- * </div>
+<mat-toolbar>
+  <button matIconButton class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button matIconButton class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button matIconButton class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
   
 </body>
   
