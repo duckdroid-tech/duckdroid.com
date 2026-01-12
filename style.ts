@@ -1,12 +1,15 @@
 import {Component} from '@angular/core';
-import {MatTabsModule} from '@angular/material/tabs';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 /**
- * @title Basic use of the tab group
+ * @title Toolbar overview
  */
 @Component({
-  selector: 'tab-group-basic-example',
-  templateUrl: 'tab-group-basic-example.html',
-  imports: [MatTabsModule],
+  selector: 'toolbar-overview-example',
+  templateUrl: 'toolbar-overview-example.html',
+  styleUrl: 'toolbar-overview-example.css',
+  imports: [MatToolbarModule, MatButtonModule, MatIconModule],
 })
-export class TabGroupBasicExample {}
+export class ToolbarOverviewExample {}
