@@ -30,6 +30,10 @@ code {
   text-decoration: none;
   border-radius: 30%;
 }
+.navbar li a:hover {
+  background-color: #ffffff;
+  color: #000;
+}
 
 .example-spacer {
   flex: 1 1 auto;
