@@ -18,6 +18,9 @@ code {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  top: 0;
+  width: 100%;
+  position: fixed;
 }
 .navbar .navbutton {
   float: left;
