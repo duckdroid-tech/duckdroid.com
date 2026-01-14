@@ -15,10 +15,10 @@ code {
   display: block;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5;
   overflow: hidden;
   background-color: #CEEAD6;
-  top: 5;
+  top: 0;
   position: fixed;
 }
 .navbar .navbutton {
