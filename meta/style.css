@@ -19,10 +19,10 @@ code {
   overflow: hidden;
   background-color: #333333;
 }
-.navbar li {
+.navbar .navbutton {
   float: left;
 }
-.navbar li a {
+.navbar .navbutton a {
   display: block;
   color: white;
   text-align: center;
