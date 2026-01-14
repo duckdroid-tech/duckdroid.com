@@ -34,8 +34,8 @@ code {
   border-radius: 25px 25px 25px 25px;
 }
 .navbar li a:hover {
-  background-color: #0D652D;
-  color: #000;
+  background-color: #34A853;
+  color: #fff;
 }
 
 .example-spacer {
