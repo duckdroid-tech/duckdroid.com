@@ -28,7 +28,7 @@ code {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  height-radius: 100%;
+  corner-radius: 100%;
 }
 .navbar li a:hover {
   background-color: #ffffff;
