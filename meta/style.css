@@ -18,7 +18,7 @@ code {
   padding: 0;
   overflow: hidden;
   background-color: #CEEAD6;
-  top: 0;
+  top: 5;
   position: fixed;
 }
 .navbar .navbutton {
