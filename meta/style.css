@@ -19,6 +19,7 @@ code {
   overflow: hidden;
   background-color: #CEEAD6;
   top: 0;
+  spacing: 5px;
   position: fixed;
 }
 .navbar .navbutton {
@@ -35,6 +36,12 @@ code {
 }
 .navbar li a:hover {
   background-color: #34A853;
+  color: #fff;
+}
+
+.footer {
+  display: block;
+  background-color: #202124;
   color: #fff;
 }
 
