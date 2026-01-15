@@ -42,7 +42,10 @@ code {
 .footer {
   display: block;
   background-color: #202124;
-  color: #fff;
+  color: white;
+  margin: 5px;
+  padding: 0;
+  bottom: 0;
 }
 
 .example-spacer {
