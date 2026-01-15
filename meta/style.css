@@ -48,6 +48,7 @@ code {
   bottom: 0;
 }
 .footer div {
+  display: grid;
   background-color: #202124;
   padding: 20px;
   font-size: 15px;
