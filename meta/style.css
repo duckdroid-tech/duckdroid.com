@@ -21,7 +21,6 @@ code {
   top: 0;
   spacing: 5px;
   width: 100%;
-  z-index: 1000;
   position: fixed;
 }
 .navbar .navbutton {
@@ -32,7 +31,7 @@ code {
   color: white;
   background-color: #4fc970;
   text-align: center;
-  padding: 24px 25px;
+  padding: 20px 20px;
   text-decoration: none;
   border-radius: 25px 25px 25px 25px;
 }
