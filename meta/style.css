@@ -43,9 +43,11 @@ code {
   display: block;
   background-color: #202124;
   color: white;
-  margin: 5px;
-  padding: 0;
+  margin: 0;
+  padding: 8px;
   bottom: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .footer div {
   display: grid;
