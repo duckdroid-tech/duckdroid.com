@@ -12,7 +12,7 @@ code {
 }
 
 .navbar {
-  display: flex;
+  display: block;
   list-style-type: none;
   margin: 5px;
   padding: 0;
