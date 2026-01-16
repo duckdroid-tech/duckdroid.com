@@ -19,7 +19,6 @@ code {
   overflow: hidden;
   background-color: #CEEAD6;
   top: 0;
-  spacing: 5px;
   width: 100%;
   position: fixed;
 }
@@ -31,7 +30,8 @@ code {
   color: white;
   background-color: #4fc970;
   text-align: center;
-  padding: 20px 20px;
+  padding: 15px 16px;
+  spacing: 5px;
   text-decoration: none;
   border-radius: 25px 25px 25px 25px;
 }
@@ -48,7 +48,6 @@ code {
   padding: 8px;
   bottom: 0;
   width: 100%;
-  z-index: 1000;
 }
 .footer div {
   display: grid;
