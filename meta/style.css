@@ -28,7 +28,7 @@ code {
 .navbar .navbutton a {
   display: block;
   color: white;
-  background-color: #4fc970;
+  background-color: #a6d9b4;
   text-align: center;
   padding: 15px 16px;
   spacing: 5px;
@@ -36,7 +36,7 @@ code {
   border-radius: 25px 25px 25px 25px;
 }
 .navbar li a:hover {
-  background-color: #34A853;
+  background-color: #5eba77;
   color: #fff;
 }
 
