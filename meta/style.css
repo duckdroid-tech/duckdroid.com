@@ -5,10 +5,12 @@ body {
 
 p,h1,h2,h3,h4,h5,h6,b,em,strong {
   @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+  font-family: 'Google Sans';
 }
 
 code {
   @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+  font-family: 'Google Sans Code';
 }
 
 .navbar {
@@ -38,6 +40,14 @@ code {
 .navbar li a:hover {
   background-color: #34A853;
   color: #fff;
+}
+
+.aboutcontainer {
+  background-color: #fff;
+  border-color: #9AA0A6;
+  border-radius: 25px 25px 25px 25px;
+  margin: 0;
+  padding: 5px 5px 5px 5px;
 }
 
 .footer {
