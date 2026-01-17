@@ -43,6 +43,7 @@ code {
 }
 
 .aboutcontainer {
+  display: block;
   background-color: #fff;
   border-color: #9AA0A6;
   border-radius: 25px 25px 25px 25px;
