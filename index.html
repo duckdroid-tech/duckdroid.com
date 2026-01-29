@@ -8,7 +8,6 @@
     <meta name="description" content="Welcome to the Duckdroid's homepage! Click on cards with buttons to navigate something about Android.">
     <meta name="locale" content="en-US">
     <meta name="site_name" content="Duckdroid">
-    
     <!-- Material Web CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
   <script type="importmap">
@@ -25,6 +24,34 @@
     document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
   </script>
     <!-- End of Material Web CDN -->
+
+    <style>
+       :root {
+  /* Generated from Material Theme Builder Figma plugin
+     or `material-color-utilities`. */
+  --md-sys-color-primary: #396A1E;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-primary-container: #B9F399;
+  --md-sys-color-on-primary-container: #072100;
+  --md-sys-color-surface: #F8FAF0;
+  --md-sys-color-on-surface: #191C19;
+  --md-sys-color-surface-container: #EEEFE5;
+  --md-sys-color-outline: #757A6D;
+  --md-sys-color-error: #B91A19;
+  --md-sys-color-on-error: #FFFFFF;
+  /* ... */
+}
+
+/* Usage in custom components */
+.primary {
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
+.secondary {
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+}  
+    </style>
   </head>
   <body>
     <div class="topnav">
