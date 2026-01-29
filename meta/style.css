@@ -216,22 +216,25 @@ body {
   white-space: nowrap;
   direction: ltr;
 }
+// End of Google Fonts
 
-End of Google Fonts //
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-b,
-em,
-strong {
+// Typography
+p,h1,h2,h3,h4,h5,h6,b,em,strong,a {
   font-family: 'Google Sans',sans;
 }
 
 code {
   font-family: 'Google Sans Code',monospace;
 }
+// End of Typography
+
+// Navigation Bar
+.topnav {
+  display: block;
+  position: fixed;
+  top: 0;
+}
+.topnav ul {
+  float: left;
+}
+// End of Navigation Bar
