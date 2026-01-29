@@ -219,10 +219,19 @@ body {
 
 End of Google Fonts //
 
-p,h1,h2,h3,h4,h5,h6,b,em,strong {
-  font-family: "Google Sans";
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+em,
+strong {
+  font-family: 'Google Sans',sans;
 }
 
 code {
-  font-family: "Google Sans Code";
+  font-family: 'Google Sans Code',monospace;
 }
